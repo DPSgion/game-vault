@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "641134373419",
+    "project_id": "quanlygame-ab22c",
+    "storage_bucket": "quanlygame-ab22c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641134373419:android:4ff89b28f73c1081efd86e",
+        "android_client_info": {
+          "package_name": "com.example.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641134373419-uj5o2329ikdrrktlant4n23no3hb98tb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.game",
+            "certificate_hash": "9d31fb8fd5393867335010e1b787c5ae3b63e828"
+          }
+        },
+        {
+          "client_id": "641134373419-dt6aalk7frvqvt7gqe53664kkp50anso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjwhhWJPMSEn2jo3aVSq7nPzHOR-2T420"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641134373419-dt6aalk7frvqvt7gqe53664kkp50anso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -66,7 +66,7 @@ class ApiService {
     }
   }
 
-  // 3. Lọc game theo thể loại (Genres) 'action', 'rpg', 'shooter', 'sports'...
+  // Lọc game theo thể loại (Genres) 'action', 'rpg', 'shooter', 'sports'...
   Future<List<Game>> getGamesByGenre(String genreSlug) async {
     try {
       final response = await http.get(

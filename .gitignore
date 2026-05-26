@@ -45,5 +45,5 @@ app.*.map.json
 /android/app/release
 
 
-# goole-services.json (Firebase config file, contains sensitive info, do not commit to public repos)
-/android/app/google-services.json
+# goole-services.json (Firebase config file, contains sensitive info)
+./google-services.json
