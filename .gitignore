@@ -46,4 +46,4 @@ app.*.map.json
 
 
 # goole-services.json (Firebase config file, contains sensitive info)
-./google-services.json
+android/app/google-services.json
