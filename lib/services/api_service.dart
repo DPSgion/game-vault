@@ -1,10 +1,12 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../models/game_model.dart'; // Cập nhật import
+import '../models/game_model.dart';
 
 class ApiService {
   static const String _baseUrl = 'https://api.rawg.io/api';
   static const String _apiKey = '5b29bc55c94d4c07acf2dd951c184e2f';
+
+// https://api.rawg.io/api/games?key=5b29bc55c94d4c07acf2dd951c184e2f&ordering=-rating&page_size=1
 
   // Lấy danh sách game phổ biến
   Future<Game?> getTrendingGame() async {

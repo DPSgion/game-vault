@@ -65,4 +65,21 @@ class FirestoreService {
         .doc(gameId)
         .delete();
   }
+
+  // Cập nhật đánh giá
+  Future<void> updatePlayedGameReview(String gameId, int rating, String review) async {
+    final user = _auth.currentUser;
+    if (user == null) throw Exception("Chưa xác thực người dùng");
+
+    await _db
+        .collection('users')
+        .doc(user.uid)
+        .collection('played_games')
+        .doc(gameId)
+        .update({
+      'rating': rating,
+      'review': review,
+      'savedAt': FieldValue.serverTimestamp(),
+    });
+  }
 }
